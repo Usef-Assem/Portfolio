@@ -1,0 +1,180 @@
+header {
+    background-image: url(/Images/Cover-2.jpeg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.57); /* Semi-transparent overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensures the overlay is behind the text */
+}
+.links {
+  z-index: 2;
+}
+
+.github , .linkedin , .whatsapp {
+  width: 50px;
+  height: 50px;
+  background-color: #0000008a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: 18px;
+  font-family: Montserrat , sans-serif;
+  font-weight: 800;
+}
+
+.nav-anchor {
+  font-family: Poppins , sans-serif;
+}
+
+.intro {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: Montserrat , sans-serif;
+}
+
+
+header h1 {
+    position: relative;
+    z-index: 2;
+}
+
+
+.About h2 {
+    color:#343434;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Montserrat , sans-serif;
+}
+.About span {
+    color: #999999;
+    font-family: Poppins , sans-serif;
+}
+.About p {
+    color: #748182;
+    font-size: 15px;
+    font-family: Poppins , sans-serif;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    width: 0; /* Default width */
+    transition: width 3s; /* Smooth and slow transition */
+  }
+  
+  @keyframes progressAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 95%; 
+    }
+  }
+
+  .progress-bar2 {
+    width: 0; /* Start with 0% width */
+    animation: progressAnimation 2s ease-in-out forwards;
+  }
+  
+  @keyframes progressAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 90%; 
+    }
+  }
+
+  .Portfolio h1 {
+    color: #343434;
+    font-family: Montserrat , sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+
+.email, .phone, .Address {
+  width: 60px;
+  height: 60px;
+  background-color: #F7F7F7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s, color 0.5s;
+  cursor: pointer;
+}
+
+
+.email:hover, .phone:hover, .Address:hover {
+  background-color: #000000;
+  color: #EEEEEE;  
+}
+
+.email:hover i, .phone:hover i, .Address:hover i {
+  color: #EEEEEE; 
+}
+
+
+  .contact h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #343434;
+    font-family: Montserrat , sans-serif;
+  }
+
+  .info p {
+    color:#748182;
+    font-size: 15px;
+    font-family: Poppins , sans-serif;
+  }
+
+  .message button {
+    font-size: 13px;
+    font-family: Poppins , sans-serif;
+  }
+
+  .info h6 {
+    color: #343434;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat , sans-serif;
+  }
+
+input , textarea {
+  background-color: #F4F4F4 !important;
+}
+
+footer {
+  background-color: #1C1C1C;
+}
+
+footer p {
+  color: #748182;
+  font-size: 13px;
+  font-family: Poppins , sans-serif;
+}
+
+.buttons a {
+  font-size: 13px;
+  font-family: Poppins , sans-serif;
+}
+
+
+
